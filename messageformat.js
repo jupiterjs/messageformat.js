@@ -1899,7 +1899,7 @@
     }
     exports.MessageFormat = MessageFormat;
   }
-  else if (typeof define === 'function' && define.amd) {
+  else if (false && typeof define === 'function' && define.amd) {
     define(function() {
       return MessageFormat;
     });
