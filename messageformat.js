@@ -1899,11 +1899,6 @@
     }
     exports.MessageFormat = MessageFormat;
   }
-  else if (typeof define === 'function' && define.amd) {
-    define(function() {
-      return MessageFormat;
-    });
-  }
   else {
     root['MessageFormat'] = MessageFormat;
   }
